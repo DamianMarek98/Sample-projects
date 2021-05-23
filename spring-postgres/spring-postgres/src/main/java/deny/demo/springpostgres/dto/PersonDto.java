@@ -13,8 +13,8 @@ public class PersonDto {
     private final Long id;
     private final String name;
     private final String surname;
-    @JsonFormat(pattern = "dd/MM/yyyy")
-    @DateTimeFormat(pattern = "dd/MM/yyyy")
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private final Date birthDate;
 
 }
